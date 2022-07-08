@@ -7,12 +7,19 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^2.0.8",
     "core-js": "^3.8.3",
+    "style-loader": "^3.3.1",
     "vue": "^2.6.14"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "stylus": "^0.58.1",
+    "stylus-loader": "^7.0.0",
     "vue-template-compiler": "^2.6.14"
   },
   "browserslist": [

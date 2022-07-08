@@ -1,0 +1,496 @@
+section {
+   width: 100%;
+   display: flex;
+   background-color: #E9F4FB;
+   position: relative;
+}
+
+.navigation {
+   width: 6.62rem;
+   background-color: #2693FF;
+}
+
+.navigation .logo {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation ul {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 75%;
+   justify-content: center;
+}
+
+.navigation ul a li {
+   list-style: none;
+   font-weight: bold;
+   color: #ffffff;
+   
+
+}
+
+.navigation ul a {
+    text-align: center;
+    width: 100%;
+    height: 5.18rem;
+    border: 1px solid #46a3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navigation ul a li p {
+   margin-top: 7px;
+   font-size: 0.75rem;  
+}
+
+/*================PROFILE- NAV=========================*/
+
+main {
+   width: 100%;
+}
+
+main .profile {
+   background-color: #FFFFFF;
+   height: 5.18rem;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+
+}
+
+main .profile-data {
+   display: flex;
+   align-items: center;
+}
+
+main .profile-name{
+   margin: 0 33px 0 7px;
+}
+
+main .profile-name p {
+   font-size: 0.93rem;
+   font-weight: 600;
+}
+
+main .profile-name span {
+   font-size: 0.75rem;
+   font-weight: 600;
+   color: #2693FF;
+}
+
+/*===================================*/
+
+main .group {
+   display: flex;
+   height: calc(100vh - 5.18rem) ;
+}
+
+main .categorias {
+   width: 14.12rem;
+   background-color: #F4FBFF;
+   display: flex;
+}
+
+main .cat-data {
+   margin-top: calc(90% - 5.18rem) ;
+   padding-left: 2.5rem;
+}
+
+main .cat-title {
+   margin-bottom: 3.25rem;
+}
+
+main .cat-title strong {
+   font-size: 1.06rem;
+   color: #4E5F70;
+}
+
+main .cat-list {
+   font-size: 0.93rem;
+   font-weight: 600;
+   line-height: 30px;
+}
+
+main .cat-list li {
+   list-style: none;
+}
+
+main .cat-list li a {
+   text-decoration: none;
+   color: #283848;
+}
+
+main .cat-list li:before {
+   content: url(https://i.ibb.co/rxGq6pB/Vector1.png)
+   display: inline-block;
+   margin: 0 10px;
+}
+
+/*=============================================*/
+
+main .todo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   position: relative;
+}
+
+main .todolist {
+   // border: 1px solid green;
+   width: 39.68rem;
+}
+
+main .todolist .todo-search {
+
+}
+
+main .todolist .todo-search strong {
+   font-size: 1.62rem;
+}
+
+main .todolist .todo-search p {
+   font-size: 1.06rem;
+   font-weight: 550;
+   color: #77899E;
+}
+
+main .todolist .todo-search p span {
+   color: #2693FF;
+}
+
+main .todolist .todo-search .buscar {
+   border: 2px solid #BFDAEB;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   height: 3.18rem;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   margin: 1.87rem 0;
+}
+
+main .todolist .todo-search .buscar input {
+   padding: 0.86rem 1.18rem;
+   font-size: 1.06rem;
+   width: 95%;
+   border: none;
+   outline: none;
+   
+}
+
+main .todolist .todo-search .buscar button {
+   font-size: 1.43rem;
+   padding: 0.66rem;
+   border: none;
+   background-color: #ffffff;
+   border-radius: 5px;
+   color: #AECBDE;
+   cursor: pointer;
+}
+
+main .list-todo {
+
+}
+
+main .list-todo ul li {
+   height: 4rem;
+   padding-left: 0.87rem; 
+   border-radius: 5px;
+   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   background-color: #ffffff;
+   margin-bottom: 0.43rem;
+   position: relative;
+}
+
+main .list-todo ul li .btn-checked {
+   display: flex;
+   align-items: center;
+   gap: 0.80rem;
+}
+
+
+main .list-todo ul li button {
+   width: 2rem;
+   height: 2rem;
+   border-radius: 3px;
+   border: none;
+   background-color: #E2EEF5;
+}
+
+main .list-todo ul li p {
+   font-size: 0.93rem;
+   font-weight: 500;
+}
+
+main .list-todo ul li .prioridade {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 3.8rem;
+   height: 1.18rem;
+   border-radius: 40px;
+   background-color: #FF2E79;
+}
+
+main .list-todo ul li .pri-btn {
+   display: flex;
+   align-items: center;
+   
+}
+
+main .list-todo ul li .prioridade span {
+   font-size: 0.68rem;
+   font-weight: 700;
+   color: #ffffff;
+}
+
+main .list-todo ul li div .btn-edit {
+   font-size: 0.93rem;
+   color: #9CAEC1;
+   cursor: pointer;
+   background-color: #ffffff;
+}
+
+
+/*========== BOX EDIT TASK ================*/
+
+main .list-todo ul li .edit-task {
+   display: none;
+   width: 6.80rem;
+   height: 4.62rem;
+   border-radius: 5px;
+   background-color: #ffffff;
+   position: absolute;
+   
+   box-shadow: 0px 1px 4px 3px rgba(0, 0, 0, 0.1);
+
+   top: 15px;
+   right: 7px;
+}
+
+main .list-todo ul li .edit-task .edit-delete {
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+main .list-todo ul li .edit-task .edit-delete a {
+   margin-top: 5px;
+}
+
+main .list-todo ul li .edit-task .edit-delete div {
+   display: flex;
+   flex-direction: column;
+   
+}
+
+main .list-todo ul li .edit-task .edit-delete div button {
+   margin-top: 3px; 
+   background-color: #ffffffff;
+   cursor: pointer;
+   font-size: 0.87rem;
+   font-weight: 550;
+   color: #748CA5;
+}
+
+/*================ADD TASK======================*/
+
+main .add-task {
+   position: absolute;
+   bottom: 1.75rem;
+   right: 1.75rem;
+}
+
+main .add-task .container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 4.81rem;
+   height: 4.81rem;
+   background-color: #0ED984;
+   border-radius: 50%;
+   border: none;
+   color: white;
+   font-size: 3rem;
+   cursor: pointer;
+}
+
+/*==============Excluir task==============================*/
+
+section .excluir-task {
+   visibility: hidden;
+   width: 477px;
+   height: 345px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   background-color: #FFFFFF;
+   position: absolute;
+   top: 20%;
+   right: 30%;
+}
+
+section .excluir-task .excluir-con-can {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+section .excluir-task .excluir-con-can .trash {
+   width: 8.5rem;
+   height: 8.5rem;
+   font-size: 4rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #4A6583;
+   border-radius: 50%;
+   background-color: #EDF6FC;
+   margin-bottom: 0.75rem;
+}
+
+
+section .excluir-task .excluir-con-can p {
+   font-size: 1.25rem;
+   font-weight: bold;
+}
+
+section .excluir-task .excluir-con-can p span {
+   color: #FF4874;
+}
+
+section .excluir-task .excluir-con-can .sub-delete {
+   font-size: 0.93rem;
+   font-weight: 550;
+   color: #475E78;
+}
+
+
+section .excluir-task .excluir-con-can .btn-del {
+   display: flex;
+   gap: 11px;
+   
+}
+
+section .btn-del {
+   margin-top: 1.80rem;
+}
+
+section .excluir-task .excluir-con-can .btn-del .cancel {
+   border-radius: 4px;
+   border: none;
+   padding: 0.75rem 1.6rem;
+   font-size: 0.93;
+   font-weight: bold;
+   color: #ffffff
+   background-color: #1AD18F;
+   cursor: pointer;
+
+}
+
+section .excluir-task .excluir-con-can .btn-del .confirm {
+   border-radius: 4px;
+   border: none;
+   padding: 0.75rem 1.6rem;
+   font-size: 0.93;
+   font-weight: bold;
+   color: #ffffff
+   background-color: #FF4874;
+   cursor: pointer;
+
+}
+
+
+/*===================Incluir Task========================*/
+
+section .incluir-task {
+   display: none;
+   border: 1px solid red;
+   width: 41.25rem;
+   height: 30.5rem;
+   background-color: #FFFFFF;
+   padding: 2.18rem 2.56rem;
+   position absolute;
+   top: 20%;
+   right: 22%;
+}
+
+section .incluir-task .register-task {
+   position: relative;
+}
+
+section .incluir-task .register-task strong {
+   font-size: 1.56rem;
+   color: #283848;
+}
+
+section .incluir-task .register-task form {
+   margin-top: 3.68rem;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1.5rem;
+}
+
+section .incluir-task .register-task form label {
+   font-size: 0.87rem;
+   font-weight: 550;
+   color: #4E657B;
+   line-height: 30px;
+}
+
+section .incluir-task .register-task form input {
+   height: 3.1rem;
+   padding-left: 1rem;
+   
+   font-size: 1.25rem;
+   border-radius: 5px;
+   border: 2px solid #BFDAEB;
+   outline: none;
+}
+
+section .incluir-task .register-task form textarea {
+   padding-left: 1rem;
+   padding-top: 1rem;
+   font-size: 1.25rem;
+   border-radius: 5px;
+   border: 2px solid #BFDAEB;
+   outline: none;
+}
+
+section .incluir-task .radio-priority input {
+   width: 1.3rem;
+   height: 1.3rem;
+}
+
+section .incluir-task .register-task .radio-priority {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+
+section .incluir-task .register-task .add {
+   position: absolute;
+   bottom: -10px;
+   right: 0;
+   border-radius: 4px;
+   border: none;
+   padding: 0.75rem 1.6rem;
+   font-size: 0.93;
+   font-weight: bold;
+   color: #ffffff
+   background-color: #A6C1D2;
+   cursor: pointer;
+}
