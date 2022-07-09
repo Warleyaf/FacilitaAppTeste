@@ -10,10 +10,11 @@
             
             <label for="password">Senha:</label>
             <input type="password">
-
-            <button>Entrar</button>
+            
+            <router-link class="button" to="/dashboard">Entrar</router-link>
          </form>
 
+         
          <a href="#">Esqueci minha senha</a>
       </div>
 

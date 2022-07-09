@@ -1,7 +1,6 @@
 <template>
   <section id='app'>
-      <Home/>
-      <Dashboard/>
+      <router-view></router-view>
   </section>  
 </template>
 
@@ -12,11 +11,9 @@ import Home from './components/home/Home.vue'
 
 export default {
   name: 'App',
-  components: {
-    Home,
-    // Dashboard,
-  }
-  
+    components: {
+      Home
+    }
   }
 </script>
 
